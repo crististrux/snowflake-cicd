@@ -6,11 +6,6 @@ on:
       - main
 
 jobs:
-  terraform:
-    defaults:
-      run:
-        working-directory: .
-
   snowflake-terraform-demo:
     name: "Snowflake Terraform Demo Job"
     runs-on: ubuntu-latest
